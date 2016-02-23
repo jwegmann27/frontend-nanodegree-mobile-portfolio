@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 module.exports = function(grunt) {
 
@@ -10,8 +10,20 @@ grunt.initConfig({
         }
       }
     }
+
+    imagemin: {
+    dynamic: {
+        files: [{
+            expand: true,
+            cwd: 'img/',
+            src: ['**/*.{png,jpg,gif}'],
+            dest: 'img/compressed-images/'
+        }]
+      }
+    }
 });//end of initConfig
 
+grunt.loadNpmTasks('grunt-contrib-imagemin');
 grunt.loadNpmTasks('grunt-contrib-uglify');//loads the given task
-grunt.registerTask('default', ['uglify']);//default grunt tasks maps to grunt
+grunt.registerTask('default', ['uglify','imagemin']);//default grunt tasks maps to grunt
 };
