@@ -3,12 +3,12 @@
 module.exports = function(grunt) {
 
 grunt.initConfig({
-  pkg: grunt.file.readJSON('package.json'),
+ // pkg: grunt.file.readJSON('package.json')
   
    uglify: {
       my_target: {
         files: {
-          'dest/processed-code/index.min.html': ['src/index.html']
+          'dest/processed-code/index.min.html': ['index.html']
         }
       }
     },
