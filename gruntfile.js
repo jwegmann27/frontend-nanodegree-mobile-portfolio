@@ -3,7 +3,7 @@
 module.exports = function(grunt) {
 //intializes our config object
 grunt.initConfig({
-  pkg: grunt.file.readJSON('package.json')
+  pkg: grunt.file.readJSON('package.json'),
   
     uglify: {
       my_target: {
