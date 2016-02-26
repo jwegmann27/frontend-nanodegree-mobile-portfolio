@@ -1,11 +1,11 @@
 //"use strict";
-
+//the line below is the wrapper function which encapsulates your grunt config.
 module.exports = function(grunt) {
-
+//intializes our config object
 grunt.initConfig({
- // pkg: grunt.file.readJSON('package.json')
+  pkg: grunt.file.readJSON('package.json')
   
-   uglify: {
+    uglify: {
       my_target: {
         files: {
           'dest/processed-code/index.min.html': ['index.html']
