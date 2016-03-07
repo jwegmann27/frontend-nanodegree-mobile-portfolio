@@ -12,3 +12,5 @@ Post Lesson 5 Styles and Layout
 - The second FSL had to do with the pizza background scrolling. To fix this I took the property that was triggering teh FSL out of the for loop and assigned it to a variable. 
 
 
+Post Lesson 6 Painting and Composite
+- To help with achieving 60fps I used will change transform. This is important becuase it will lesson 
