@@ -1,5 +1,11 @@
 PIZZA at 60 FPS By: Joseph Wegmann
 **********************************
+How to Run Pizza.html
+*********************
+- Go to views inside the frontend-nanodegree-mobile-portfolio.
+- Then click on pizza.html file.
+- Right click the pizza.html file then select open with (the web browser of your choice)
+
 My way of starting the project is to go through lesson 4 thru 6. And after each one check to see what can be fixed.
 
 Post Lesson 4 JS
@@ -14,3 +20,10 @@ Post Lesson 5 Styles and Layout
 
 Post Lesson 6 Painting and Composite
 - To help with achieving 60fps I used will change transform. This is important becuase it will lesson 
+
+Overview of fixes to Pizza.html
+1. Fixed changePizzaSizes so that no forced sync layout ocurred in the for loop. Also made for loop simplier 
+by not using determineDx function.
+2. Fixed similar problem with updatePositions function.
+3. Lowered the number of pizzas scrolling the screen. 
+4. Optimized images for the website. 

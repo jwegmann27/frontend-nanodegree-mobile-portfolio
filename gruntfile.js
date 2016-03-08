@@ -5,14 +5,6 @@ module.exports = function(grunt) {
 grunt.initConfig({
   pkg: grunt.file.readJSON('package.json'),
   
-    uglify: {
-      my_target: {
-        files: {
-          'dest/processed-code/index.min.html': ['index.html']
-        }
-      }
-    },
-
     imagemin: {
     dynamic: {
         files: [{
@@ -26,6 +18,5 @@ grunt.initConfig({
 });//end of initConfig
 
 grunt.loadNpmTasks('grunt-contrib-imagemin');
-grunt.loadNpmTasks('grunt-contrib-uglify');//loads the given task
-grunt.registerTask('default', ['uglify','imagemin']);//default grunt tasks maps to grunt
+grunt.registerTask('default', ['imagemin']);//default grunt tasks maps to grunt
 };
