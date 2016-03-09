@@ -568,9 +568,8 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
     var cols = 8;
     var s = 256;
-    //var floatingpizzas = window.innerHeight/300;
-    //I was going to use window.innerHeight but It looked kind of funy so i tested a coupel diff
-    //numbesr and 50 seemed good for various window sizes
+    //var floatingpizzas = window.innerHeight/100;
+
     for (var i = 0; i < 40; i++) {
         var elem = document.createElement('img');
         elem.className = 'mover';

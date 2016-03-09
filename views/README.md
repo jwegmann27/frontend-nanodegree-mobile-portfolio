@@ -6,6 +6,9 @@ How to Run Pizza.html
 - Then click on pizza.html file.
 - Right click the pizza.html file then select open with (the web browser of your choice)
 
+- Side note: pizza.html is the minified version and pizza-org.html is the not minified version. Use minified 
+version for the best pagespeed results.
+
 My way of starting the project is to go through lesson 4 thru 6. And after each one check to see what can be fixed.
 
 Post Lesson 4 JS
